@@ -1,0 +1,35 @@
+To install virtualenv:
+pip install virtualenv
+
+create a new environment with python:
+virtualenv venv --python=python<version number>
+
+currenlty have python3.8.5 installed so it would be:
+virtualenv venv --python=python3.8.5
+
+
+to activate new environment:
+venv\Scripts\activate
+
+install Flask:
+pip install Flask
+
+intall flask-RESTful:
+pip install Flask-RESTful
+
+view envronment (may also "save" environment):
+pip freeze 
+
+
+intall Flask-JWT (authentication):
+pip install Flask-JWT
+
+install Flask-SQLAlchemy:
+pip install Flask-SQLAlchemy
+
+Create env:
+virtualenv <name of env> --python=python3.8.5
+pip install Flask
+pip install Flask-RESTful
+pip install Flask-JWT
+pip install Flask-SQLAlchemy
